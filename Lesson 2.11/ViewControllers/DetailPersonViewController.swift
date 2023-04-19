@@ -7,10 +7,20 @@
 
 import UIKit
 
-class DetailPersonViewController: UIViewController {
-
+final class DetailPersonViewController: UIViewController {
+    
+    // MARK: - Private IBOutlet
+    @IBOutlet private weak var phoneLabel: UILabel!
+    @IBOutlet private weak var emailLabel: UILabel!
+    
+    // MARK: - Life cycle
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        phoneLabel.text = phone
+        emailLabel.text = email
     }
+    
+    // MARK: - Variables
+    var phone: String?
+    var email: String?
 }
