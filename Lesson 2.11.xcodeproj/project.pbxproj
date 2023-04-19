@@ -14,6 +14,7 @@
 		2C8650B729F0056A00119F43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C8650B629F0056A00119F43 /* Assets.xcassets */; };
 		2C8650BA29F0056A00119F43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C8650B829F0056A00119F43 /* LaunchScreen.storyboard */; };
 		2C8650C529F0072A00119F43 /* DetailPersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8650C429F0072A00119F43 /* DetailPersonViewController.swift */; };
+		2C8650C829F0091800119F43 /* Persons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8650C729F0091800119F43 /* Persons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		2C8650B929F0056A00119F43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C8650BB29F0056A00119F43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C8650C429F0072A00119F43 /* DetailPersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPersonViewController.swift; sourceTree = "<group>"; };
+		2C8650C729F0091800119F43 /* Persons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persons.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		2C8650AC29F0056900119F43 /* Lesson 2.11 */ = {
 			isa = PBXGroup;
 			children = (
+				2C8650C629F008F700119F43 /* Model */,
 				2C8650C129F005BA00119F43 /* ViewControllers */,
 				2C8650C229F005F800119F43 /* Storyboards */,
 				2C8650C329F0064B00119F43 /* App */,
@@ -92,6 +95,14 @@
 				2C8650AD29F0056900119F43 /* AppDelegate.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		2C8650C629F008F700119F43 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2C8650C729F0091800119F43 /* Persons.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +179,7 @@
 				2C8650C529F0072A00119F43 /* DetailPersonViewController.swift in Sources */,
 				2C8650B229F0056900119F43 /* PersonsViewController.swift in Sources */,
 				2C8650AE29F0056900119F43 /* AppDelegate.swift in Sources */,
+				2C8650C829F0091800119F43 /* Persons.swift in Sources */,
 				2C8650B029F0056900119F43 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
